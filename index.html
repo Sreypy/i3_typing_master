@@ -4,9 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome to Our Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/CSS/index.css" />
 </head>
 <body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">YourLogo</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
   <header class="hero">
     <div class="hero-content">
       <h1>Welcome to Our Website</h1>
@@ -15,10 +29,19 @@
     </div>
   </header>
 
-  <section class="features">
+  <!-- Features Section -->
+  <section id="services" class="features">
     <div class="container">
       <h2>What We Do</h2>
       <p>We specialize in creating modern, user-friendly websites and applications for individuals and businesses alike.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section (Placeholder) -->
+  <section id="contact" class="features">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email us at <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
     </div>
   </section>
 
