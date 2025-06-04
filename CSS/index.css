@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1400x600') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: #004aad;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #003080;
+}
+
+.features {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.features h2 {
+  color: #004aad;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  margin-top: 2rem;
+}
